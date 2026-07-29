@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "antiq-morocco",
+  "regions": ["cdg1"],
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm ci"
+}
