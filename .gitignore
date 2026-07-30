@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build outputs
+frontend/.next/
+frontend/out/
+backend/bin/
+backend/obj/
+backend/src/*/bin/
+backend/src/*/obj/
+
+# Environment files (never commit these)
+frontend/.env.local
+frontend/.env.production
+backend/src/AntiqMorocco.API/appsettings.Development.json
+**/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/settings.json
+*.user
+
+# Docker volumes
+sqlserver_data/
